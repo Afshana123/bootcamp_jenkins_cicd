@@ -73,3 +73,12 @@ cd ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "your_email@githubemail.com"
 
 Create a webhook on github that listens to any changes/pushes from you localhost and triggers your job in jenkins 
+
+https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project
+
+make changes in your github and refresh your Jenkins page - you should see a new build
+
+Provided that tests have passed, the next job should trigger to merge code into master/main brach 
+- Create a branch called dev 
+- Create a newjob on Jenkins called afshana-ci-merge to merge dev into main if the first job was successful 
+
