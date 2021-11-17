@@ -12,8 +12,34 @@
   ##### Contiounus Integration Continuous Delivery/Deployment 
 ![](images/CICD.png)
 
+- We have a private SSH key available  - create a secure connection between local host and github 
+- Source code is also available on Git
+- webhook will listen in on Github when it recieves something to jenkins
+- Configure webbook in Github 
+- Generate another SSH Key - to have a secure connection between Github and Jenkins
+- Building a secure pipeline 
+- Give a private key to Jenkins 
+- Jenkins can clone the repo in a secure environment with ssh authentication
+- Do testing in Agent Node because Jenkin server will still run and facilitate users even if it breaks 
+- Agent Node Server 
+
 ###### Let's break it down 
   ![](images/cicd_jenkins.png)
+
+Task list: 
+- Github repo with source code
+- SSH set up
+- App code available on github
+- cd app
+- npm install
+- npm test -automated 
+- testing 
+- npm start
+
+Problems/debugging:
+- SSH key not set up correctly
+
+
 
 ### For deployment job in Jenkins
 - In the execute shell of CD job

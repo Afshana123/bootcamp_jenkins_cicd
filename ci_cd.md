@@ -58,3 +58,18 @@ DevOps helps
 - people.teams 
 - collaboration
 - principles 
+
+#### Jenkins 
+Multi Billion Dollar companies like Facebook, Netflix and Ebay have adopted Jenkins because of it’s amazing advantages, Jenkins is an open-source automation server in which the central build and CI process take place, It is a Java-based program with packages for Windows, macOS, & Linux.
+
+Tools available similar to Jenkins:
+- circleci
+- TeamCity
+- Bamboo 
+- GitLab 
+
+
+cd ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "your_email@githubemail.com"
+
+Create a webhook on github that listens to any changes/pushes from you localhost and triggers your job in jenkins 
