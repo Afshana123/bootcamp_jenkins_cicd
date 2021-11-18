@@ -81,5 +81,5 @@ make changes in your github and refresh your Jenkins page - you should see a new
 Provided that tests have passed, the next job should trigger to merge code into master/main brach 
 - Create a branch called dev 
 - Create a newjob on Jenkins called afshana-ci-merge to merge dev into main if the first job was successful 
-- testing123456
+- testing1234567
 
